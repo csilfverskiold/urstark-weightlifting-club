@@ -21,9 +21,10 @@ h1 {
 }
 
 #logo {
-    font-size: 300%;
+    font-size: 400%;
     float: left;
     color: #fff;
+    margin-left: 400px;
 }
 
 /*navigation links*/
@@ -33,7 +34,9 @@ h1 {
     font-size: 140%;
     letter-spacing: 3px;
     float: right;
+    margin-right: 400px;
 }
+
 
 #nav-links li {
 float: left;
@@ -52,4 +55,12 @@ margin: 30px;
 
 .active {
     border-bottom: 1px solid #fff;
+}
+
+/*hero image*/
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url('../images/hero-image\ vers\ L.jpg') no-repeat 0 20%;
 }
