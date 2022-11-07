@@ -9,6 +9,8 @@
 body {
     font-family: Staatliches, sans-serif;
     font-weight: 400;
+    background-color: #252525;
+    color: #fff;
 }
 
 /*headings and logo*/
@@ -21,9 +23,11 @@ h1 {
 #logo {
     font-size: 300%;
     float: left;
+    color: #fff;
 }
 
 /*navigation links*/
+/*Used code to set float position of nav-links without reversed list order: https://codepen.io/ConStambo/pen/WxRQVq*/
 
 #nav-links {
     font-size: 140%;
@@ -35,4 +39,17 @@ h1 {
 float: left;
 list-style-type: none;
 margin: 30px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color:inherit
+}
+
+#nav-links a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
 }
