@@ -7,7 +7,32 @@
 }
 
 body {
-    font-family:Staatliches, sans-serif;
+    font-family: Staatliches, sans-serif;
     font-weight: 400;
 }
 
+/*headings and logo*/
+
+h1 {
+    font-family: Caesar Dressing, sans-serif;
+    letter-spacing: 10px;
+}
+
+#logo {
+    font-size: 300%;
+    float: left;
+}
+
+/*navigation links*/
+
+#nav-links {
+    font-size: 140%;
+    letter-spacing: 3px;
+    float: right;
+}
+
+#nav-links li {
+float: left;
+list-style-type: none;
+margin: 30px;
+}
