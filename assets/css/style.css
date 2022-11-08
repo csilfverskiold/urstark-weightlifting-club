@@ -156,3 +156,24 @@ p {
 #border-space {
     border-spacing:15px 10px;
 }
+
+/* footer */
+
+footer {
+    height: 130px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5px;
+    color: #fff;
+}
