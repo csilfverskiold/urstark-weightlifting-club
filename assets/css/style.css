@@ -59,6 +59,12 @@ h1 {
 
 /* hero image */
 
+#hero-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 750px;
     width: 100%;
