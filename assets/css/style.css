@@ -182,4 +182,11 @@ footer {
     margin: 1%;
     padding: 5px;
     color: #fff;
+} 
+
+/* about page image */
+
+#about-bg-image {
+    height: 750px;
+    width: 100%;
 }
