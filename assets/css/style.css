@@ -98,42 +98,35 @@ h1 {
 
 }
 
-#cover-text-1, #cover-text-1 h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
-#cover-text-1 {
+hr {
+    border-top: 2px solid #fff;
+    width: 190px;
+    margin: 3px 0;
+}
+
+#cover-text {
     font-size: 130%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
 
-    width: 300px;
-    height: 200px;
+    width: 1000px;
+    height: 300px;
+    
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(0,90,161, .7) ;
+    background-color: rgba(0,90,161, .5) ;
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 150px;
+    left: 460px;
     position: absolute;
 }
 
-#cover-text-2 {
-    font-size: 130%;
-    font-family: Staatliches, sans-serif;
-    letter-spacing: 3px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(0,90,161, .7) ;
-
-    bottom: 30px;
-    left: 150px;
-    position: absolute;
+p {
+    margin-top: 20px;
 }
