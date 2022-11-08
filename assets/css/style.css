@@ -9,7 +9,7 @@
 body {
     font-family: Staatliches, sans-serif;
     font-weight: 400;
-    background-color: #252525;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -98,7 +98,8 @@ h1 {
 
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -115,12 +116,12 @@ hr {
 
     width: 1000px;
     height: 300px;
-    
+
 
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(0,90,161, .5) ;
+    background-color: rgba(0, 90, 161, .5);
 
     bottom: 150px;
     left: 460px;
@@ -129,4 +130,29 @@ hr {
 
 p {
     margin-top: 20px;
+}
+
+/* open hours section*/
+/* found how to add border-spacing through: https://www.w3docs.com/snippets/css/how-to-create-space-between-rows-in-the-table.html*/
+
+#open-hours {
+    font-size: 130%;
+    font-family: Staatliches, sans-serif;
+    letter-spacing: 3px;
+
+    width: 400px;
+    height: 130px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 0 auto;
+
+}
+
+#open-hours h2 {
+    text-align: center;
+}
+
+#border-space {
+    border-spacing:15px 10px;
 }
