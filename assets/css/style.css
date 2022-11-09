@@ -204,13 +204,13 @@ footer {
     background: url('../images/image\ 4.jpg') no-repeat 0 20%;
 }
 
-#about-left {
-    font-size: 130%;
+#about-text {
+    font-size: 150%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
 
-    width: 300px;
-    height: 300px;
+    width: 750px;
+    height: 200px;
 
 
     padding-top: 20px;
@@ -218,28 +218,13 @@ footer {
 
     background-color: rgba(0, 90, 161, .5);
 
-    bottom: 150px;
+    top: 250px;
     left: 360px;
     position: absolute;
 }
 
-#about-right {
-    font-size: 130%;
-    font-family: Staatliches, sans-serif;
-    letter-spacing: 3px;
-
-    width: 300px;
-    height: 300px;
-
-
-    padding-top: 20px;
-    padding-left: 10px;
-
-    background-color: rgba(0, 90, 161, .5);
-
-    bottom: 150px;
-    right: 360px;
-    position: absolute;
+#about-paragraph {
+    margin: 15px;
 }
 
 /* contact page */
