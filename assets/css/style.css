@@ -68,7 +68,7 @@ h1 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url('../images/hero-image\ vers\ L.jpg') no-repeat 0 20%;
+    background: url('../images/hero-image\ L.jpg') no-repeat 0 20%;
 }
 
 /* next level section */
@@ -84,7 +84,7 @@ h1 {
 #next-level-image {
     height: 750px;
     width: 100%;
-    background: url('../images/hero-image\ vers\ 2.jpg') no-repeat;
+    background: url('../images/image\ 2.jpg') no-repeat;
     border-top: 10px solid #fff;
     border-bottom: 10px solid #fff;
 
@@ -166,7 +166,7 @@ p {
 /* footer */
 
 footer {
-    height: 130px;
+    height: 100px;
 }
 
 .social-links {
@@ -178,7 +178,7 @@ footer {
 }
 
 .social-links i {
-    font-size: 160%;
+    font-size: 180%;
     margin: 1%;
     padding: 5px;
     color: #fff;
@@ -186,14 +186,28 @@ footer {
 
 /* about page image */
 
+#about-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #about-bg-image {
     height: 750px;
     width: 100%;
+    background: url('../images/image\ 4.jpg') no-repeat 0 20%;
 }
 
 /* contact page image */
 
+#contact-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #contact-bg-image {
     height: 750px;
     width: 100%;
+    background: url('../images/image\ 3.jpg') no-repeat 0 20%;
 }
