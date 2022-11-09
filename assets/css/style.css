@@ -90,20 +90,6 @@ h1 {
 
 }
 
-#lift-big {
-    float: left;
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
-
-    font-family: Staatliches, sans-serif;
-    font-size: 300%;
-    letter-spacing: 10px;
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
 #cover-text,
 #cover-text h2 {
     color: #fff;
@@ -111,12 +97,12 @@ h1 {
 
 hr {
     border-top: 2px solid #fff;
-    width: 190px;
-    margin: 3px 0;
+    width: 200px;
+    margin: 2px 0;
 }
 
-#cover-text {
-    font-size: 130%;
+#cover-text-large {
+    font-size: 140%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
 
@@ -129,13 +115,33 @@ hr {
 
     background-color: rgba(0, 90, 161, .5);
 
-    bottom: 150px;
+    top: 30px;
     left: 460px;
     position: absolute;
 }
 
+#cover-text-small {
+    font-size: 160%;
+    font-family: Staatliches, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+
+    width: 250px;
+    height: 70px;
+
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 90, 161, .5);
+
+    bottom: 200px;
+    left: 835px;
+    position: absolute;
+}
+
 p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* open hours section*/
@@ -198,6 +204,44 @@ footer {
     background: url('../images/image\ 4.jpg') no-repeat 0 20%;
 }
 
+#about-left {
+    font-size: 130%;
+    font-family: Staatliches, sans-serif;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 300px;
+
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 90, 161, .5);
+
+    bottom: 150px;
+    left: 360px;
+    position: absolute;
+}
+
+#about-right {
+    font-size: 130%;
+    font-family: Staatliches, sans-serif;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 300px;
+
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 90, 161, .5);
+
+    bottom: 150px;
+    right: 360px;
+    position: absolute;
+}
+
 /* contact page */
 
 #contact-outer {
@@ -216,10 +260,9 @@ footer {
     font-size: 130%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
-
+    
     width: 600px;
     height: 620px;
-
 
     padding-top: 20px;
     padding-bottom: 5px;
@@ -267,7 +310,7 @@ footer {
 }
 
 .submit-button {
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
