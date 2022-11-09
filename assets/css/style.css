@@ -311,3 +311,15 @@ footer {
     background-color:#fff;
     color:#000000;
 }
+
+/* media queries */
+/* For larger screens size from 1490px wide and down */
+
+@media screen and (max-width: 1490px) {
+
+    #nav-links {
+        margin-left: 30px;
+    }
+
+    
+}
