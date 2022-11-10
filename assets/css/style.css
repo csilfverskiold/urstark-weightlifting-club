@@ -358,5 +358,12 @@ footer {
         padding-top: 20px;
     }
 
+    #about-text {
+        width: fit-content;
+        height: fit-content;
+        left: auto;
+        margin: 15px;
+        top: 350px;
+    }
 }
 
