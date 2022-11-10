@@ -319,17 +319,22 @@ footer {
 }
 
 /* media queries */
-/* For smaller screens size to up to 425px wide */
 
+
+
+
+
+
+/* On screens size 425px wide or less */
 @media screen and (max-width: 425px) {
 
     #logo {
-        margin-left: 70px;
+        margin: 0 30px 0 30px;
         
     }
 
     #nav-links {
-        margin-right: 20px;
+        margin: 0 180px 0 10px;
     }
 
     #cover-text {
@@ -340,11 +345,18 @@ footer {
         padding-bottom: 10px;
     }
 
+    #open-hours {
+        width: auto;
+        height: auto;
+    }
+
+    #border-space {
+        margin: 0 auto;
+    }
+
+    #social-links {
+        padding-top: 20px;
+    }
 
 }
 
-@media screen and (max-width: 768px) {
-
-    
-
-}
