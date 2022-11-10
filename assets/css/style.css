@@ -320,9 +320,27 @@ footer {
 
 /* media queries */
 
+/* Found code and altered to my use in project to add #border-space: https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/ */
+/* On screens size min-width 425px up to max-width 768px */
+@media only screen and (max-width: 768px) and (min-width: 425px) {
 
+    #logo {
+        margin: 0 30px 0 30px;
+        
+    }
 
+    #nav-links {
+        margin: 0 10px 0 10px;
+    }
 
+    #cover-text {
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        margin: 15px;
+    }
+
+}
 
 
 /* On screens size 425px wide or less */
@@ -375,4 +393,3 @@ footer {
         padding-bottom: 15px;
     }
 }
-
