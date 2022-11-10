@@ -207,32 +207,6 @@ footer {
     margin: 15px;
 }
 
-#lift-with-us {
-    font-size: 160%;
-    font-family: Staatliches, sans-serif;
-    letter-spacing: 3px;
-    text-align: center;
-
-
-    width: 250px;
-    height: 70px;
-
-
-    padding-top: 20px;
-    padding-left: 10px;
-
-    background-color: rgba(0, 90, 161, .7);
-
-    bottom: 300px;
-    left: 835px;
-    position: absolute;
-}
-
-#lift-with-us>a {
-    text-decoration: none;
-    color: #fff;
-}
-
 /* contact page */
 
 #contact-outer {
@@ -345,6 +319,14 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         padding-bottom: 20px;
     }
 
+    #about-text {
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        margin: 15px;
+        padding-bottom: 20px;
+    }
+
 }
 
 
@@ -375,12 +357,6 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         left: 0;
         margin: 15px;
         padding-bottom: 20px;
-    }
-
-    #lift-with-us {
-        left: 259px;
-        bottom: 175px;
-
     }
 
     .contact-section {
@@ -438,8 +414,6 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         margin: 15px;
         top: 350px;
     }
-
-
 
     .contact-section {
         width: fit-content;
