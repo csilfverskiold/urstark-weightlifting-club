@@ -212,7 +212,7 @@ footer {
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
     text-align: center;
-    
+
 
     width: 250px;
     height: 70px;
@@ -228,7 +228,7 @@ footer {
     position: absolute;
 }
 
-#lift-with-us > a {
+#lift-with-us>a {
     text-decoration: none;
     color: #fff;
 }
@@ -251,7 +251,7 @@ footer {
     font-size: 130%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
-    
+
     width: 600px;
     height: 620px;
 
@@ -267,14 +267,14 @@ footer {
     position: absolute;
 }
 
-.contact-form > h2 {
+.contact-form>h2 {
     color: #fff;
     margin-bottom: 20px;
 }
 
 .text-input {
-    background:transparent;
-    color:#fff;
+    background: transparent;
+    color: #fff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px;
@@ -314,23 +314,37 @@ footer {
 }
 
 .submit-button:hover {
-    background-color:#fff;
-    color:#000000;
+    background-color: #fff;
+    color: #000000;
 }
 
 /* media queries */
-/* For larger screens size from 1490px wide and down */
+/* For smaller screens size to up to 425px wide */
 
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 425px) {
+
+    #logo {
+        margin-left: 70px;
+        
+    }
 
     #nav-links {
-        margin-left: 30px;
+        margin-right: 20px;
     }
 
     #cover-text {
-        width: 50%;
-        height: auto;
-        padding-bottom: 20px;
-        left: 345px;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 15px 0 15px;
+        left: auto;
+        padding-bottom: 10px;
     }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    
+
 }
