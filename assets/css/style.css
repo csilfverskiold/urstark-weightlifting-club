@@ -320,9 +320,35 @@ footer {
 
 /* media queries */
 
-/* Found code and altered to my use in this project to add @media only screen and (max-width: 768px) and (min-width: 426px):
- https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/ */
+/* Found code and altered to my use in this project to add in combined media query expressions:
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/ */
 
+
+
+/* On screens size min-width 769px up to max-width 1490px */
+@media only screen and (max-width: 1490px) and (min-width: 769px) {
+    
+    #logo {
+        margin-left: 90px;
+    }
+
+    #nav-links {
+        margin: 0;
+    }
+
+    #cover-text {
+        width: fit-content;
+        height: fit-content;
+        left: 0;
+        margin: 15px;
+        margin: 100px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+ 
 /* On screens size min-width 426px up to max-width 768px */
 @media only screen and (max-width: 768px) and (min-width: 426px) {
 
@@ -369,9 +395,6 @@ footer {
     .message-text-input {
         height: 100px;
     }
-
-
-
 }
 
 
