@@ -72,7 +72,7 @@ h1 {
 }
 
 /* next level section */
-/* Found code and altered to my use in project to set text shadow in #lift-big: https://stackoverflow.com/questions/2570972/css-font-border */
+
 
 #next-level-outer {
     height: 750px;
@@ -299,9 +299,9 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
 
 
 
-/* On screens size min-width 769px up to max-width 1490px */
-@media only screen and (max-width: 1490px) and (min-width: 769px) {
-    
+/* On screens size 1440px wide or less */
+@media screen and (max-width: 1440px) {
+
     #logo {
         margin-left: 90px;
     }
@@ -327,12 +327,17 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         padding-bottom: 20px;
     }
 
+    .contact-section {
+        left: 420px;
+        bottom: 280px;
+    }
+
 }
 
 
- 
-/* On screens size min-width 426px up to max-width 768px */
-@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+/* On screens size 768px wide or less */
+@media screen and (max-width: 768px) {
 
     #logo {
         margin: 0 30px 0 30px;
@@ -361,9 +366,9 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
 
     .contact-section {
         width: 400px;
-        height: fit-content;
+        height: 520px;
         left: 184px;
-        bottom: 30px;
+        bottom: 90px;
         padding-bottom: 30px;
         margin: 15px;
     }
