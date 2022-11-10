@@ -90,18 +90,18 @@ h1 {
 
 }
 
-#cover-text,
 #cover-text h2 {
     color: #fff;
+    font-size: 160%;
 }
 
 hr {
     border-top: 2px solid #fff;
-    width: 200px;
+    width: 215px;
     margin: 2px 0;
 }
 
-#cover-text-large {
+#cover-text {
     font-size: 140%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
@@ -327,5 +327,10 @@ footer {
         margin-left: 30px;
     }
 
-    
+    #cover-text {
+        width: 50%;
+        height: auto;
+        padding-bottom: 20px;
+        left: 345px;
+    }
 }
