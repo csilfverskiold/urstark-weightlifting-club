@@ -338,6 +338,7 @@ footer {
         height: fit-content;
         left: 0;
         margin: 15px;
+        padding-bottom: 20px;
     }
 
 }
