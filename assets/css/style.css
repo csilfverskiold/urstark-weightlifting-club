@@ -365,5 +365,14 @@ footer {
         margin: 15px;
         top: 350px;
     }
+
+    .contact-section {
+        width: fit-content;
+        height: fit-content;
+        left: auto;
+        margin: 15px;
+        top: 350px;
+        padding-bottom: 15px;
+    }
 }
 
