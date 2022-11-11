@@ -184,6 +184,22 @@ footer {
     background: url('../images/image\ 4.jpg') no-repeat 0 20%;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#silhouette-image {
+    width: 250px;
+    height: 300px;
+    background-color:#000000;
+    position: absolute;
+    top: 490px;
+    left: 825px;
+    padding: 10px;
+}
+
 #about-text {
     font-size: 150%;
     font-family: Staatliches, sans-serif;
@@ -294,11 +310,6 @@ footer {
 
 /* media queries */
 
-/* Found code and altered to my use in this project to add in combined media query expressions:
-https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/ */
-
-
-
 /* On screens size 1440px wide or less */
 @media screen and (max-width: 1440px) {
 
@@ -327,13 +338,18 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         padding-bottom: 20px;
     }
 
+    #silhouette-image {
+        top: 475px;
+        left: 585px;
+        padding: 10px;
+    }
+
     .contact-section {
         left: 420px;
         bottom: 280px;
     }
 
 }
-
 
 
 /* On screens size 768px wide or less */
@@ -362,6 +378,13 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         left: 0;
         margin: 15px;
         padding-bottom: 20px;
+    }
+
+    #silhouette-image {
+        width: 188px;
+        height: 225px;
+        top: 535px;
+        left: 280px;
     }
 
     .contact-section {
@@ -418,6 +441,13 @@ https://www.emailonacid.com/blog/article/email-development/emailology_media_quer
         left: auto;
         margin: 15px;
         top: 350px;
+    }
+
+    #silhouette-image {
+        width: 165px;
+        height: 200px;
+        top: 820px;
+        left: 120px;
     }
 
     .contact-section {
