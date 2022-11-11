@@ -36,3 +36,35 @@ While navigating the website, users will be able to find information about the c
 Chrome DevTools device toolbar; Mobile L 425px, Tablet 768px and Laptop L 1440px. 
 - I have confirmed that the header, navigation, home, about, contact are all easy to read and understand. 
 - I have confirmed the contact form works, requires entries in every field and submit button works. 
+
+## Validator testing
+
+- HTML
+    - No erros were returned when passing through the offical W3C validator. 
+- CSS
+    - No erros were found when passing through the offical (Jigsaw) validator. 
+- Accessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in DevTools. 
+    #
+
+    <img src="assets/images/urstark-lighthouse-desktop.JPG" alt="Lighthouse accessibility score">
+
+## Deployment
+
+- This site was deployed to GitHub pages. The steps to deploy are the following: 
+    - In the GitHub repository, navigate to Settings tab. 
+    - From the source dropdown menu, select main branch. 
+    - When the main branch has been selected, the page provided the link to the completed website. 
+
+The live link can be found here: [Urstark Weightlifting Club](https://csilfverskiold.github.io/urstark-weightlifting-club/)
+
+## Credits
+
+- Content
+    - The code used to create textarea in the contact form was found at: [Stack Overflow](https://bit.ly/3tmtsVa)
+    - The code used to add border-space in open hours section: [W3Docs](https://bit.ly/3NXJcrd)
+    - The code to set float position of nav-links without reversed list order: [Codepen](https://codepen.io/ConStambo/pen/WxRQVq)
+- Media 
+    - All images used are from: [Pexels](https://pexels.com) 
+    - All icons for social media links are from: [Font Awesome](https://fontawesome.com)
+    - The code used to make the social media links was from: CI [Love Running](http://bit.ly/3g08bgT)
