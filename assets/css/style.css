@@ -68,7 +68,7 @@ h1 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url('../images/hero-image\ L.jpg') no-repeat 0 20%;
+    background: url('../images/hero-image\ L.jpg') no-repeat 50% 20%;
 }
 
 /* next level section */
