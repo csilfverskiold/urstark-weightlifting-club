@@ -307,8 +307,8 @@ img {
 
 /* media queries */
 
-/* On screens size 1440px wide or less */
-@media screen and (max-width: 1440px) {
+/* On screens size 1500px wide or less */
+@media screen and (max-width: 1500px) {
 
     #logo {
         margin-left: 90px;
@@ -334,11 +334,13 @@ img {
         padding-bottom: 20px;
     }
 
+    /*
     #silhouette-image {
         top: 475px;
         left: 585px;
         padding: 10px;
     }
+    */
 
     .contact-section {
         left: 420px;
