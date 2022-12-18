@@ -73,7 +73,6 @@ h1 {
 
 /* next level section */
 
-
 #next-level-outer {
     height: 750px;
     width: 100%;
@@ -105,16 +104,12 @@ hr {
     font-size: 140%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
-
-    width: 1000px;
+    width: 50%;
     height: 300px;
-
-
+    margin: auto;
     padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(0, 90, 161, .5);
-
     top: 30px;
     left: 460px;
     position: absolute;
@@ -190,6 +185,7 @@ img {
     object-fit: contain;
 }
 
+/*
 #silhouette-image {
     width: 250px;
     height: 300px;
@@ -199,6 +195,7 @@ img {
     left: 825px;
     padding: 10px;
 }
+*/
 
 #about-text {
     font-size: 150%;
@@ -234,7 +231,7 @@ img {
 #contact-bg-image {
     height: 750px;
     width: 100%;
-    background: url('../images/image\ 3.jpg') no-repeat 50% 20%;
+    background: url('../images/image\ 3.jpg') no-repeat 50% 30%;
 }
 
 .contact-section {
@@ -326,7 +323,6 @@ img {
         height: fit-content;
         left: 0;
         margin: 15px;
-        margin: 100px;
         padding-bottom: 20px;
     }
 
