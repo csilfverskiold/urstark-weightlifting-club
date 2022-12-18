@@ -84,7 +84,7 @@ h1 {
 #next-level-image {
     height: 750px;
     width: 100%;
-    background: url('../images/image\ 2.jpg') no-repeat;
+    background: url('../images/image\ 2.jpg') no-repeat 50% 10%;
     border-top: 10px solid #fff;
     border-bottom: 10px solid #fff;
 
