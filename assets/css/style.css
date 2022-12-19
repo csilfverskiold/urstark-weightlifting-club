@@ -178,24 +178,6 @@ footer {
     background: url('../images/image\ 4.jpg') no-repeat 50% 20%;
 }
 
-/*
-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
-
-#silhouette-image {
-    width: 250px;
-    height: 300px;
-    background-color:#000000;
-    position: absolute;
-    top: 490px;
-    left: 825px;
-    padding: 10px;
-}
-*/
-
 #about-section {
     height: 0;
 }
@@ -332,16 +314,7 @@ img {
         padding-bottom: 20px;
     }
 
-    /*
-    #silhouette-image {
-        top: 475px;
-        left: 585px;
-        padding: 10px;
-    }
-    */
-
 }
-
 
 /* On screens size 768px wide or less */
 @media screen and (max-width: 768px) {
@@ -371,15 +344,6 @@ img {
         padding-bottom: 20px;
         bottom: 575px;
     }
-    
-    /*
-    #silhouette-image {
-        width: 188px;
-        height: 225px;
-        top: 535px;
-        left: 280px;
-    }
-    */
 
     .contact-container {
         width: 400px;
@@ -427,15 +391,6 @@ img {
         margin: 15px;
         bottom: 675px;
     }
-
-    /*
-    #silhouette-image {
-        width: 165px;
-        height: 200px;
-        top: 820px;
-        left: 120px;
-    }
-    */
 
     .contact-container {
         width: fit-content;
