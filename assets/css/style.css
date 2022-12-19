@@ -200,19 +200,14 @@ img {
     font-size: 150%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
-
-    width: 750px;
+    width: 50%;
     height: 200px;
-
-
+    margin: auto;
     padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(0, 90, 161, .7);
-
-    top: 250px;
-    left: 585px;
-    position: absolute;
+    bottom: 500px;
+    position: relative;
 }
 
 #about-paragraph {
@@ -376,13 +371,15 @@ img {
         margin: 15px;
         padding-bottom: 20px;
     }
-
+    
+    /*
     #silhouette-image {
         width: 188px;
         height: 225px;
         top: 535px;
         left: 280px;
     }
+    */
 
     .contact-section {
         width: 400px;
@@ -434,12 +431,14 @@ img {
         top: 350px;
     }
 
+    /*
     #silhouette-image {
         width: 165px;
         height: 200px;
         top: 820px;
         left: 120px;
     }
+    */
 
     .contact-section {
         width: fit-content;
