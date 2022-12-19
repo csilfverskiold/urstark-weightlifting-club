@@ -196,6 +196,10 @@ img {
 }
 */
 
+#about-section {
+    height: 0;
+}
+
 #about-text {
     font-size: 150%;
     font-family: Staatliches, sans-serif;
@@ -365,6 +369,7 @@ img {
         left: 0;
         margin: 15px;
         padding-bottom: 20px;
+        bottom: 575px;
     }
     
     /*
@@ -420,7 +425,7 @@ img {
         height: fit-content;
         left: auto;
         margin: 15px;
-        top: 350px;
+        bottom: 675px;
     }
 
     /*
