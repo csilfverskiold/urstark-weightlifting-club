@@ -110,9 +110,8 @@ hr {
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(0, 90, 161, .5);
-    top: 30px;
-    left: 460px;
-    position: absolute;
+    bottom: 730px;
+    position: relative;
 }
 
 p {
@@ -322,7 +321,7 @@ img {
         width: fit-content;
         height: fit-content;
         left: 0;
-        margin: 15px;
+        margin: 0 15px;
         padding-bottom: 20px;
     }
 
@@ -367,7 +366,6 @@ img {
         width: fit-content;
         height: fit-content;
         left: 0;
-        margin: 15px;
         padding-bottom: 20px;
     }
 
@@ -411,7 +409,6 @@ img {
     #cover-text {
         width: fit-content;
         height: fit-content;
-        margin: 0 15px 0 15px;
         left: auto;
         padding-bottom: 10px;
     }
