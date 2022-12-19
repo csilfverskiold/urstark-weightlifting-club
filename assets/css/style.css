@@ -228,24 +228,24 @@ img {
     background: url('../images/image\ 3.jpg') no-repeat 50% 30%;
 }
 
-.contact-section {
+#contact-section {
+    height: 0;
+}
+
+.contact-container {
     font-size: 130%;
     font-family: Staatliches, sans-serif;
     letter-spacing: 3px;
-
     width: 600px;
     height: 620px;
-
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-
     background-color: rgba(0, 90, 161, 0.5);
-
-    bottom: 150px;
-    left: 660px;
-    position: absolute;
+    bottom: 700px;
+    position: relative;
 }
 
 .contact-form>h2 {
@@ -336,11 +336,6 @@ img {
     }
     */
 
-    .contact-section {
-        left: 420px;
-        bottom: 180px;
-    }
-
 }
 
 
@@ -381,13 +376,10 @@ img {
     }
     */
 
-    .contact-section {
+    .contact-container {
         width: 400px;
         height: 520px;
-        left: 184px;
-        bottom: 210px;
         padding-bottom: 30px;
-        margin: 15px;
     }
 
     .message-text-input {
@@ -440,12 +432,10 @@ img {
     }
     */
 
-    .contact-section {
+    .contact-container {
         width: fit-content;
         height: fit-content;
-        left: auto;
         margin: 15px;
-        top: 350px;
         padding-bottom: 15px;
     }
 }
