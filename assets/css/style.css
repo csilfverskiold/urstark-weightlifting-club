@@ -326,7 +326,15 @@ footer {
     }
 
     #nav-links {
-        margin: 0 10px 0 10px;
+        margin: auto;
+        width: 100%;
+    }
+
+    #nav-links li {
+        margin: 0 auto;
+        padding: 10px;
+        width: fit-content;
+        float: none;
     }
 
     #cover-text {
@@ -359,18 +367,6 @@ footer {
 
 /* On screens size 425px wide or less */
 @media screen and (max-width: 425px) {
-
-    #nav-links {
-        margin: auto;
-        width: 100%;
-    }
-
-    #nav-links li {
-        margin: 0 auto;
-        padding: 10px;
-        width: fit-content;
-        float: none;
-    }
 
     #cover-text {
         width: fit-content;
