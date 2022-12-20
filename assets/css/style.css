@@ -34,7 +34,7 @@ h1 {
     font-size: 140%;
     letter-spacing: 3px;
     float: right;
-    margin-right: 400px;
+    margin-right: 375px;
 }
 
 
@@ -316,8 +316,8 @@ footer {
 
 }
 
-/* On screens size 768px wide or less */
-@media screen and (max-width: 768px) {
+/* On screens size 800px wide or less */
+@media screen and (max-width: 800px) {
 
     #logo {
         margin: 0 auto;
