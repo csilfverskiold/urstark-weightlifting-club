@@ -4,6 +4,8 @@ Urstark Weightlifting Club is a weightlifting club where athletes train and comp
 
 While navigating the website, users will be able to find information about the clubs official team and the sport in general, as well as the open hours and days and links to official social media accounts. There is also a contact form to be able to get in touch with the club. 
 
+<img src="assets/images/" alt="Website shown responsively on different devices">
+
 ## Features
 
 - Navigation
