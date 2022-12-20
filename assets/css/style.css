@@ -301,7 +301,6 @@ footer {
     #cover-text {
         width: fit-content;
         height: fit-content;
-        left: 0;
         margin: 0 15px;
         padding-bottom: 20px;
     }
@@ -309,7 +308,6 @@ footer {
     #about-text {
         width: fit-content;
         height: fit-content;
-        left: 0;
         margin: 15px;
         padding-bottom: 20px;
     }
@@ -340,7 +338,6 @@ footer {
     #cover-text {
         width: fit-content;
         height: fit-content;
-        left: 0;
         padding-bottom: 20px;
     }
 
