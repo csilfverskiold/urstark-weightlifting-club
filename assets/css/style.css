@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     font-weight: 400;
     background-color: #000000;
     color: #fff;
@@ -16,7 +16,7 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: Caesar Dressing, sans-serif;
+    font-family: "Caesar Dressing", sans-serif;
     letter-spacing: 10px;
 }
 
@@ -102,7 +102,7 @@ hr {
 
 #cover-text {
     font-size: 140%;
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     letter-spacing: 3px;
     width: 50%;
     height: 300px;
@@ -123,7 +123,7 @@ p {
 
 #open-hours {
     font-size: 130%;
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     letter-spacing: 3px;
 
     width: 400px;
@@ -184,7 +184,7 @@ footer {
 
 #about-text {
     font-size: 150%;
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     letter-spacing: 3px;
     width: 50%;
     height: 200px;
@@ -220,7 +220,7 @@ footer {
 
 .contact-container {
     font-size: 130%;
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     letter-spacing: 3px;
     width: 600px;
     height: 620px;
@@ -273,7 +273,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 120%;
-    font-family: Staatliches, sans-serif;
+    font-family: "Staatliches", sans-serif;
     letter-spacing: 1px;
     background-color: #fff;
     color: rgb(0, 90, 161);
